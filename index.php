@@ -70,18 +70,18 @@ if (isset($_POST["calcola"]))
 
 		<div class="row">
 			<div class="col-12">
-				<input type="text" name="durata_lavoro" class="text_box2" placeholder="Quanto lavori al giorno?">
+				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanto lavori al giorno?">
 			</div>
 
 		<div class="row">
 			<div class="col-12">
-				<hr class="linea2">
+				<hr class="linea">
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<p class="campo_obbligatorio2"><b>Campo obbligatorio</b></p>
+				<p class="campo_obbligatorio"><b>Campo obbligatorio</b></p>
 			</div>
 		</div>
 
@@ -92,37 +92,30 @@ if (isset($_POST["calcola"]))
        <div class="container3">
 		<div class="row">
 			<div class="col-12">
-				<p class="paragraph3"><b>Compenso orario</b></p>
+				<p class="paragraph2"><b>Compenso orario</b></p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<input type="text" name="durata_lavoro" class="text_box3" placeholder="Quanto verrai pagato all'ora?">
+				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanto verrai pagato all'ora?">
 			</div>
 
 		<div class="row">
 			<div class="col-12">
-				<hr class="linea3">
+				<hr class="linea">
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<p class="campo_obbligatorio3"><b>Campo obbligatorio</b></p>
+				<p class="campo_obbligatorio"><b>Campo obbligatorio</b></p>
 			</div>
 		</div>
 
 
 <div class="col-2">
-			<input type="button" name="calcola" value="colcola" class="calcola">
+			<input type="button" name="calcola" value="calcola" class="calcola">
 			</div>
-
-
-			<div class="row">
-			<div class="col-12">
-				<p class="title2"><b>Guadagnerai 300€ lavorando 3 giorni al compenso di 30€/h</b></p>
-			</div>
-		</div>
 </body>
 </html>

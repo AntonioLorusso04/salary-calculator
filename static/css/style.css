@@ -133,82 +133,7 @@ left: 538px;
 top: 392px;
 }
 
-.paragraph2
-{
-   position: absolute;
-width: 211.31px;
-height: 16px;
-left: 538px;
-top: 392px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-display: flex;
-align-items: center;
-
-color: #000000;
-
-}
-
-
-.text_box2
-{
-  position: absolute;
-width: 207.22px;
-height: 16px;
-left: 547.54px;
-top: 428px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-display: flex;
-align-items: center;
-
-color: #A4A4A4;
-
-
-}
-
-.linea2
-{
-	
-	position: absolute;
-width: 364px;
-height: 0px;
-left: 538px;
-top: 356px;
-
-border: 2px solid #535353;
-}
-
-
-
-.campo_obbligatorio2
-{
-	position: absolute;
-width: 137.69px;
-height: 13px;
-left: 538px;
-top: 364px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 13px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #FF0000;
-}
 
 
 .container3
@@ -220,85 +145,6 @@ left: 538px;
 top: 485px;
 
 
-}
-
-
-
-.paragraph3
-{
-   position: absolute;
-width: 211.31px;
-height: 16px;
-left: 538px;
-top: 392px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-display: flex;
-align-items: center;
-
-color: #000000;
-
-}
-
-
-.text_box3
-{
-  position: absolute;
-width: 207.22px;
-height: 16px;
-left: 547.54px;
-top: 428px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-display: flex;
-align-items: center;
-
-color: #A4A4A4;
-
-
-}
-
-.linea3
-{
-	
-	position: absolute;
-width: 364px;
-height: 0px;
-left: 538px;
-top: 356px;
-
-border: 2px solid #535353;
-}
-
-
-
-.campo_obbligatorio3
-{
-	position: absolute;
-width: 137.69px;
-height: 13px;
-left: 538px;
-top: 364px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 13px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #FF0000;
 }
 
 
@@ -314,21 +160,4 @@ background: #D0CFFF;
 }
 
 
-.title2
-{
-	position: absolute;
-width: 364px;
-height: 43px;
-left: 538px;
-top: 667px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-display: flex;
-align-items: center;
-
-color: #000000;
-}
