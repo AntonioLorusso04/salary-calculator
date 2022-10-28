@@ -59,5 +59,59 @@ if (isset($_POST["calcola"]))
 
 
 
+
+<div class="row">
+			<div class="col-12">
+				<p class="paragraph"><b>Ore giornaliere di lavoro</b></p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanto lavori al giorno?">
+			</div>
+
+		<div class="row">
+			<div class="col-12">
+				<hr class="linea">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<p class="campo_obbligatorio"><b>Campo obbligatorio</b></p>
+			</div>
+		</div>
+
+
+
+
+
+
+		<div class="row">
+			<div class="col-12">
+				<p class="paragraph"><b>Compenso orario</b></p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanto verrai pagato all'ora?">
+			</div>
+
+		<div class="row">
+			<div class="col-12">
+				<hr class="linea">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<p class="campo_obbligatorio"><b>Campo obbligatorio</b></p>
+			</div>
+		</div>
+
+
+
 </body>
 </html>

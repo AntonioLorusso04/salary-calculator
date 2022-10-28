@@ -1,0 +1,35 @@
+.background
+{
+	background: #E5E5E5;
+}
+
+.title
+{
+
+position: absolute;
+width: 355px;
+height: 49px;
+left: 543px;
+top: 196px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 49px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+.container{
+	position: absolute;
+width: 364px;
+height: 78px;
+left: 538px;
+top: 299px;
+
+}
