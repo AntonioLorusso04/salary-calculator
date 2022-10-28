@@ -44,7 +44,7 @@ if (isset($_POST["calcola"]))
 
 		<div class="row">
 			<div class="col-12">
-				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanti giorni durerà il lavoro?">
+				<input type="text" name="giorni" class="text_box" placeholder="Quanti giorni durerà il lavoro?">
 			</div>
 
 		<div class="row">
@@ -70,18 +70,18 @@ if (isset($_POST["calcola"]))
 
 		<div class="row">
 			<div class="col-12">
-				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanto lavori al giorno?">
+				<input type="text" name="ore_giornaliere" class="text_box2" placeholder="Quanto lavori al giorno?">
 			</div>
 
 		<div class="row">
 			<div class="col-12">
-				<hr class="linea">
+				<hr class="linea2">
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<p class="campo_obbligatorio"><b>Campo obbligatorio</b></p>
+				<p class="campo_obbligatorio2"><b>Campo obbligatorio</b></p>
 			</div>
 		</div>
 
@@ -92,30 +92,36 @@ if (isset($_POST["calcola"]))
        <div class="container1">
 		<div class="row">
 			<div class="col-12">
-				<p class="paragraph2"><b>Compenso orario</b></p>
+				<p class="paragraph3"><b>Compenso orario</b></p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanto verrai pagato all'ora?">
+				<input type="text" name="compenso_orario" class="text_box3" placeholder="Quanto verrai pagato all'ora?">
 			</div>
 
 		<div class="row">
 			<div class="col-12">
-				<hr class="linea">
+				<hr class="linea3">
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<p class="campo_obbligatorio"><b>Campo obbligatorio</b></p>
+				<p class="campo_obbligatorio3"><b>Campo obbligatorio</b></p>
 			</div>
 		</div>
 
 
 <div class="col-2">
-			<input type="button" name="calcola" value="calcola" class="calcola">
+			<input type="button" name="calcola" value="Calcola" class="calcola">
 			</div>
+
+
+			<div class="row">
+			<div class="col-12">
+			</div>
+		</div>
 </body>
 </html>
