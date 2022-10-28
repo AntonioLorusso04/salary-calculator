@@ -61,7 +61,7 @@ if (isset($_POST["calcola"]))
 
 
 
-<div class="container2">
+<div class="container1">
 <div class="row">
 			<div class="col-12">
 				<p class="paragraph2"><b>Ore giornaliere di lavoro</b></p>
@@ -89,7 +89,7 @@ if (isset($_POST["calcola"]))
 
 
 
-       <div class="container3">
+       <div class="container1">
 		<div class="row">
 			<div class="col-12">
 				<p class="paragraph2"><b>Compenso orario</b></p>
