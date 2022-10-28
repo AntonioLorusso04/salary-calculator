@@ -33,10 +33,12 @@ if (isset($_POST["calcola"]))
 				<p class="title"><b>Quanto sarai povero?</b></p>
 			</div>
 		</div>
+        
 
+        <div class="container1">
 		<div class="row">
 			<div class="col-12">
-				<p class="paragraph"><b>Giorni</b></p>
+				<p class="paragraph1"><b>Giorni</b></p>
 			</div>
 		</div>
 
@@ -59,27 +61,27 @@ if (isset($_POST["calcola"]))
 
 
 
-
+<div class="container2">
 <div class="row">
 			<div class="col-12">
-				<p class="paragraph"><b>Ore giornaliere di lavoro</b></p>
+				<p class="paragraph2"><b>Ore giornaliere di lavoro</b></p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanto lavori al giorno?">
+				<input type="text" name="durata_lavoro" class="text_box2" placeholder="Quanto lavori al giorno?">
 			</div>
 
 		<div class="row">
 			<div class="col-12">
-				<hr class="linea">
+				<hr class="linea2">
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<p class="campo_obbligatorio"><b>Campo obbligatorio</b></p>
+				<p class="campo_obbligatorio2"><b>Campo obbligatorio</b></p>
 			</div>
 		</div>
 
@@ -87,31 +89,40 @@ if (isset($_POST["calcola"]))
 
 
 
-
+       <div class="container3">
 		<div class="row">
 			<div class="col-12">
-				<p class="paragraph"><b>Compenso orario</b></p>
+				<p class="paragraph3"><b>Compenso orario</b></p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<input type="text" name="durata_lavoro" class="text_box" placeholder="Quanto verrai pagato all'ora?">
+				<input type="text" name="durata_lavoro" class="text_box3" placeholder="Quanto verrai pagato all'ora?">
 			</div>
 
 		<div class="row">
 			<div class="col-12">
-				<hr class="linea">
+				<hr class="linea3">
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<p class="campo_obbligatorio"><b>Campo obbligatorio</b></p>
+				<p class="campo_obbligatorio3"><b>Campo obbligatorio</b></p>
 			</div>
 		</div>
 
 
+<div class="col-2">
+			<input type="button" name="calcola" value="colcola" class="calcola">
+			</div>
 
+
+			<div class="row">
+			<div class="col-12">
+				<p class="title2"><b>Guadagnerai 300€ lavorando 3 giorni al compenso di 30€/h</b></p>
+			</div>
+		</div>
 </body>
 </html>
